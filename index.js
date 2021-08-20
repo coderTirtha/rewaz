@@ -84,4 +84,9 @@ $(document).ready(function() {
             $(".photo-gallery-2019 img").attr("src", "images/2019/img" + imageCount2018 + ".webp");
         }
     });
+
+    $(".contact-list").hide();
+    $(".contact-section button").click(function() {
+        $(".contact-list").toggle(500);
+    });
 });
